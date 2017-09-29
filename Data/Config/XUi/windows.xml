@@ -1148,28 +1148,13 @@
 				</rect>
 			</rect>
 		</rect>
-		<rect pos="240, -46" height="230" width="228" controller="CombineGrid">
-			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="0,1" width="228" height="230" color="[black]" type="sliced" fillcenter="false" />
-			<sprite name="background" color="[darkGrey]" pos="0,1" type="sliced" />
-			<grid name="parts" rows="3" cols="1" pos="3,-2" cell_width="150" cell_height="76" repeat_content="true">
-				<required_item_stack />
-			</grid>
-			<label depth="3" pos="90,-25" text="Item A" text_key="xuiCombineItemA" />
-			<label depth="3" pos="90,-100" text="Item B" text_key="xuiCombineItemB" />
-			<label depth="3" pos="90,-175" text="Result" text_key="xuiResult" />
-		</rect>
-		<!-- Adds the combine grid in the minibike -->
-		<panel pos="240, 0" style="header.panel">
-			<sprite style="header.icon" sprite="ui_game_symbol_add" />
-			<label style="header.name" text="COMBINE" text_key="xuiCombine" />
-		</panel>
 	</window>
-	<window name="windowVehicleStorage" width="530" height="262" depth="5" anchor="CenterTop" panel="Right" backgroundcolor="[black]" cursor_area="true">
+	<window name="windowVehicleStorage" width="228" height="262" depth="5" anchor="CenterTop" panel="Right" backgroundcolor="[black]" cursor_area="true">
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<button depth="1" name="btnSort" style="icon32px, press, hover" pivot="center" pos="21,-21" sprite="ui_game_symbol_loot_sack" tooltip_key="lblSortContainer" sound="[paging_click]" />
 			<label style="header.name" text="MINIBIKE STORAGE" text_key="xuiMinibikeStorage" />
 		</panel>
-		<grid depth="2" name="inventory" rows="6" cols="7" pos="3,-46" cell_width="75" cell_height="75" repeat_content="true" controller="VehicleContainer">
+		<grid depth="2" name="inventory" rows="5" cols="7" pos="3,-46" cell_width="75" cell_height="75" repeat_content="true" controller="VehicleContainer">
 			<item_stack name="0" />
 		</grid>
 		<panel name="emptyPanel" height="450" depth="4" pos="0,-49" backgroundcolor="[darkGrey]" bordercolor="[black]" visible="false">
