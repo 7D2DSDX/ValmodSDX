@@ -6,7 +6,7 @@ Using SDX 0.7.2, and the SDX Mod Helper, SDX elements were added and intermingle
 The SDX Mod Helper downloaded the SDX mods, and updated the localization files, removing bad entries and adding references to which workstations
 are to be used for crafting.
 
-Xtrackickin's Zombie Enhancement was added as a 7D2D Patch, generated and applied with the 7D2D Mod Launcher adds a more versatile element.
+Xtrackicking's Zombie Enhancement was added as a 7D2D Patch, generated and applied with the 7D2D Mod Launcher adds a more versatile element.
 
 ==============================================================================================================================================================
 
@@ -23,6 +23,6 @@ Snapshot taken on September 26th, 2017
 	-> Xtrakicking's Zombie Enhancement Pack
 	-> Localization File updated to provide indications on which workstation they are crafted indications
 	-> Romero Mode. Headshots matter
-	-> Nightly Blood Moons
+	-> Nightly Blood Moons  - Begin Night 2. Prepare yourself.
 	
 ==============================================================================================================================================================
