@@ -34,7 +34,7 @@ Snapshot taken on September 26th, 2017
 			</Description>
 			<DownloadMode>Clone</DownloadMode>
 		
-			<Version>alpha16.3</Version>
+			<Version>alpha16.4</Version>
 			<RSS></RSS>
 			<Excludes>
 				<Exclude>NightlyHordes</Exclude>
@@ -81,7 +81,7 @@ Snapshot taken on September 26th, 2017
 						<Exclude>7DaysToDieServer_Data</Exclude>
 				<Exclude>Dedicated</Exclude>
 
-			<Version>alpha16.3</Version>
+			<Version>alpha16.4</Version>
 			<RSS></RSS>
 			<ReleaseNotes></ReleaseNotes>
 			<Downloads>
