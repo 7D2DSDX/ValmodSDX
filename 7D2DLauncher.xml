@@ -86,7 +86,8 @@ Snapshot taken on September 26th, 2017
 			<ReleaseNotes></ReleaseNotes>
 			<Downloads>
 				<Download>https://github.com/7D2DSDX/ValmodSDX/archive/master.zip</Download>
-				<Download>https://github.com/7D2DSDX/ValmodSDX/raw/master/NightlyHordes/Assembly-CSharp.dll</Download>
+				<Download>https://github.com/7D2DSDX/ValmodSDX/raw/master/NightlyHordes/7DaysToDie_Data/Managed/Assembly-CSharp.dll</Download>
+				<Download>https://github.com/7D2DSDX/ValmodSDX/raw/master/NightlyHordes/7DaysToDie_Data/Managed/mods.dll</Download>
 			</Downloads>
 		</Server>
 	</ServerGroup>
