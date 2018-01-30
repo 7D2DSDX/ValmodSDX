@@ -39,6 +39,7 @@ Snapshot taken on September 26th, 2017
 			<Excludes>
 				<Exclude>NightlyHordes</Exclude>
 				<Exclude>7DaysToDieServer_Data</Exclude>
+				<Exclude>WussVersion</Exclude>
 			</Excludes>
 			<ReleaseNotes></ReleaseNotes>
 			<Downloads>
@@ -78,9 +79,11 @@ Snapshot taken on September 26th, 2017
 ==============================================================================================================================================================
 			</Description>
 			<DownloadMode>Clone</DownloadMode>
-						<Exclude>7DaysToDieServer_Data</Exclude>
+			<Excludes>
+				<Exclude>WussVersion</Exclude>
+				<Exclude>7DaysToDieServer_Data</Exclude>
 				<Exclude>Dedicated</Exclude>
-
+			</Excludes>
 			<Version>alpha16.4</Version>
 			<RSS></RSS>
 			<ReleaseNotes></ReleaseNotes>
@@ -88,6 +91,55 @@ Snapshot taken on September 26th, 2017
 				<Download>https://github.com/7D2DSDX/ValmodSDX/archive/master.zip</Download>
 				<Download>https://github.com/7D2DSDX/ValmodSDX/raw/master/NightlyHordes/7DaysToDie_Data/Managed/Assembly-CSharp.dll</Download>
 				<Download>https://github.com/7D2DSDX/ValmodSDX/raw/master/NightlyHordes/7DaysToDie_Data/Managed/mods.dll</Download>
+			</Downloads>
+		</Server>
+		
+			<Server Name="Valmod Overhaul SDX Regular Blood Moons" Logo="">
+			<Description>Valmod Overhaul, with CompoPack with Regular Blood Moons
+** This Mod is not supported by valmar, Magoli, or anyone. It's a Proof of Concept Only Play **
+
+A base mod of Valmar's Valmod Overhaul, as synced from the 7D2D Mod Launcher. 
+
+Using SDX 0.7.2, and the SDX Mod Helper, SDX elements were added and intermingled to provide a unique play experience. 
+The SDX Mod Helper downloaded the SDX mods, and updated the localization files, removing bad entries and adding references to which workstations
+are to be used for crafting.
+
+Xtrackickin's Zombie Enhancement was added as a 7D2D Patch, generated and applied with the 7D2D Mod Launcher adds a more versatile element.
+
+==============================================================================================================================================================
+
+Snapshot taken on September 26th, 2017
+
+	-> Valmar Overhaul
+	-> Magoli's CompoPack
+	-> SDX Bigger Back Pack mod ( Size 42 )
+	-> Guppycur's Blood Moon Trickle 
+	-> Misc. Crafting Lag Fixes, reduces delay when searching for recipes
+	-> Expanded Minibike Storage, with Combine Workbench
+	-> NoAmmo mod allows you to unload guns without dis-assembling
+	-> Zombie Transmogrifier gives you more random zombies at different walk types, and speeds
+	-> Xtrakicking's Zombie Enhancement Pack
+	-> Localization File updated to provide indications on which workstation they are crafted indications
+	-> Romero Mode. Headshots matter
+	-> Regular Blood Moons
+	
+==============================================================================================================================================================
+			</Description>
+			<DownloadMode>Clone</DownloadMode>
+			<Excludes>
+				<Exclude>7DaysToDieServer_Data</Exclude>
+				<Exclude>Dedicated</Exclude>
+				<Exclude>NightlyHordes</Exclude>
+
+			</Excludes>
+
+			<Version>alpha16.4</Version>
+			<RSS></RSS>
+			<ReleaseNotes></ReleaseNotes>
+			<Downloads>
+				<Download>https://github.com/7D2DSDX/ValmodSDX/archive/master.zip</Download>
+				<Download>https://github.com/7D2DSDX/ValmodSDX/raw/master/WussVersion/7DaysToDie_Data/Managed/Assembly-CSharp.dll</Download>
+				
 			</Downloads>
 		</Server>
 	</ServerGroup>
